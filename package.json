@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "PixelmonSh-Launcher",
+    "preductname": "PixelmonSh Launcher",
     "version": "1.3.2",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "description": "Launcher du serveur PixelmonSh",
     "main": "src/app.js",
     "author": "Luuxis",
-    "url": "http://launcher.luuxis.fr/launcherSelvania",
+    "url": "https://pixelmonshlauncher.wstr.fr/",
     "engines": {
         "node": "^18.x.x"
     },
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Meizuupx/PixelmonSh-Launcher.git"
     }
 }
