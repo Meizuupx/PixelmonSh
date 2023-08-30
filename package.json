@@ -5,7 +5,7 @@
     "description": "Launcher du serveur PixelmonSh",
     "main": "src/app.js",
     "author": "Luuxis",
-    "url": "https://pixelmonshlauncher.wstr.fr/",
+    "url": "http://pixelmonshlauncher.wstr.fr",
     "engines": {
         "node": "^18.x.x"
     },

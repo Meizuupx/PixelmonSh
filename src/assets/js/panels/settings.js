@@ -54,7 +54,7 @@ class Settings {
         })
 
         document.querySelector('.add-account').addEventListener('click', () => {
-            document.querySelector(".cancel-login").style.display = "contents";
+            document.querySelector(".cancel-login").style.display = "block";
             changePanel("login");
         })
     }
@@ -108,7 +108,7 @@ class Settings {
             if (file.value.replace(".exe", '').endsWith("java") || file.value.replace(".exe", '').endsWith("javaw")) {
                 this.database.update({ uuid: "1234", path: file.value }, 'java-path');
                 path.value = file.value.replace(/\\/g, "/");
-            } else alert("Le nom du fichier doit être java ou javaw");
+            } else alert("Le nom du fichier doit Ãªtre java ou javaw");
 
         });
 
