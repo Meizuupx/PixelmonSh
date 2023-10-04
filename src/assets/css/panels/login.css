@@ -56,6 +56,7 @@
     font: normal normal bold 19px/29px Poppins;
     color: #E1E1E1;
     border-radius: 15px;
+    display: none;
 }
 
 .card-body {
@@ -105,20 +106,19 @@
     box-shadow: 0 0 5px #006e47;
 }
 
-.cancel-login {
+.cancel {
     border: none;
     background-color: #ffffff00;
     color: #F1F1F1;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
-    display: none;
 }
 
-.cancel-login:hover {
+.cancel:hover {
     color: #373737;
 }
 
-.cancel-login:hover:disabled {
+.cancel:hover:disabled {
     color: #F1F1F1;
     cursor: default;
 }

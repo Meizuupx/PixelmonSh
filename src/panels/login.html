@@ -1,4 +1,13 @@
 <div class="login-content">
+    <div class="login-card">
+        <p>Utilisez votre pseudo <span class="store"></span> pour vous connectez au launcher.</p>
+        <div class="login-type">
+            <button class="mojang login-type-btn">Mojang</button>
+            <button class="microsoft login-type-btn">Microsoft</button>
+        </div>
+        <button class="cancel cancel-login" style="display: none;">Annuler</button>
+    </div>
+
     <div class="login-card-mojang">
         <div class="card-body">
             <small class="info-login">&nbsp;</small>
@@ -9,16 +18,17 @@
                 <small class="error-mail">&nbsp;</small>
             </div>
 
-            <div class="login-card-mojang-input" style="display: none;">
-                <label>Ne pas remplir si crack</label>   
+            <div class="login-card-mojang-input">
+                <label>Ne pas remplir !</label>
                 <input type="password" class="Password login-mojang-input" spellcheck="false">
                 <small class="error-password">&nbsp;</small>
             </div>
 
             <div class="login-options">
+                <span class="password-reset"></span>
                 <div class="btn-option-login">
                     <button class="login-btn">Connexion</button>
-                    <button class="cancel cancel-login">Annuler</button>
+                    <button class="cancel cancel-mojang">Annuler</button>
                 </div>
             </div>
         </div>
