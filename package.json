@@ -1,7 +1,7 @@
 {
     "name": "PixelmonSh-Launcher",
     "preductname": "PixelmonSh Launcher",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Launcher du serveur PixelmonSh",
     "main": "src/app.js",
     "author": "Luuxis",
