@@ -1,7 +1,7 @@
 {
     "name": "PixelmonSh-Launcher",
     "preductname": "PixelmonSh Launcher",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "Launcher du serveur PixelmonSh",
     "main": "src/app.js",
     "author": "Luuxis",
@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "electron-updater": "^6.1.1",
-        "minecraft-java-core": "3.6",
+        "minecraft-java-core": "3.7",
         "node-fetch": "^2.6.13"
     },
     "devDependencies": {
